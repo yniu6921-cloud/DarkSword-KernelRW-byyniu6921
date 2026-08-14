@@ -1,4 +1,4 @@
-# DarkSword 内核读写库 我不解释
+# DarkSword 内核读取 我不解释
 致谢opa334-源代码实现者 Acknowledgments-DarkSword漏洞发现者
 
 一个封装完整的 DarkSword 内核读写库和 KFD 漏洞一样支持内核读取
