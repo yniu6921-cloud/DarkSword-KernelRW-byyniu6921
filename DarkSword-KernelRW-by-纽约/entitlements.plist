@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- 核心权限 -->
+    <key>platform-application</key>
+    <true/>
+
+    <!-- 任务端口权限 -->
+    <key>task_for_pid-allow</key>
+    <true/>
+
+    <!-- 动态代码签名 -->
+    <key>get-task-allow</key>
+    <true/>
+
+    <!-- 调试权限 -->
+    <key>com.apple.security.cs.debugger</key>
+    <true/>
+
+    <!-- 跳过库验证 -->
+    <key>com.apple.security.cs.disable-library-validation</key>
+    <true/>
+
+    <!-- 允许无效签名 -->
+    <key>com.apple.private.skip-library-validation</key>
+    <true/>
+
+    <!-- 网络权限（Socket 操作需要）-->
+    <key>com.apple.security.network.client</key>
+    <true/>
+    <key>com.apple.security.network.server</key>
+    <true/>
+
+    <!-- IOKit 用户客户端权限 -->
+    <key>com.apple.private.iokit.user-client</key>
+    <string>IOSurfaceRoot</string>
+
+    <!-- 内存管理 -->
+    <key>com.apple.private.memorystatus</key>
+    <true/>
+
+    <!-- 文件访问 -->
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true/>
+</dict>
+</plist>
